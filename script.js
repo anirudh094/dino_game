@@ -50,7 +50,7 @@ setInterval(() => {
     offsetX = dx-ox;
     offsetY = Math.abs(dy-oy);
 
-    console.log(offsetX,offsetY);
+    //console.log(offsetX,offsetY);
 
     if(offsetX>-150 && offsetX<90 && offsetY<100){
         gameOver.innerHTML='Game Over';
